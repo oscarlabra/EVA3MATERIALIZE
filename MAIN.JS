@@ -8,7 +8,6 @@ firebase.initializeApp({
   var db = firebase.firestore();
   
   function agregar(){
-      
   var nombre = document.getElementById("nombre").value;
   var apellido = document.getElementById("apellido").value;
   var fecha = document.getElementById("fecha").value;
