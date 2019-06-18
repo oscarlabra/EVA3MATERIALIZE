@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input placeholder="Nombre" id="nombre" type="text" class="validate">
+                      <label for="first_name">Nombre</label><br>
+                    </div>
+                    <div class="input-field col s6">
+                      <input placeholder="Apellido"  id="apellido" type="text" class="validate">
+                      <label for="last_name">Apellido</label><br>
+
+                    </div>
+                  </div>
+                  <div class="input-field col s6">
+                      <input placeholder="Fecha"  id="fecha" type="text" class="validate">
+                      <label for="last_name">Fecha</label><br>
+
+                    </div>
+                  </div>
+                                  
+                </form>
+              </div>
+              <!-- Modal Trigger -->
+  <button data-target="modal1" class="btn modal-trigger" onclick="agregar()">Agregar</button>
+  <button data-target="modal1" class="btn modal-trigger" onclick="eliminar()"> Eliminar</button>
+  <button data-target="modal1" class="btn modal-trigger" onclick="editar()">editar</button>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="main.js"></script>
+</body>
+</html>
