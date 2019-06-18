@@ -27,8 +27,7 @@ firebase.initializeApp({
   
   
   }
-  
-  
+    
   function eliminar(){
   
       db.collection("usuarios").doc("0Jv77r2vBkkcYahfFmKk").delete().then(function() {
