@@ -3,9 +3,7 @@ firebase.initializeApp({
     authDomain: "semana04062019.firebaseapp.com",
     projectId: "semana04062019"
   });
-  
-  
-  
+   
   // Initialize Cloud Firestore through Firebase
   var db = firebase.firestore();
   
