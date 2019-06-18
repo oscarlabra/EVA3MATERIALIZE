@@ -24,8 +24,7 @@ firebase.initializeApp({
   .catch(function(error) {
       console.error("Error adding document: ", error);
   });
-  
-  
+    
   }
     
   function eliminar(){
